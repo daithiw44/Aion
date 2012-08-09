@@ -11,7 +11,7 @@ var server = net.createServer(function(c) {
   d.on('remote', function(remote) {
     Aion.on('tick', function(msg) {
       if (typeof msg !== 'undefined') {
-        remote.onSomething(msg function(msg) {
+        remote.onSomething(msg,function(msg) {
           for (var key in msg) {
             console.log('callback - ', key);
           }
