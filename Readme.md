@@ -24,4 +24,4 @@ The callback function is the last parameter and this should be used to take the 
 
 TODO and beyond.
 
-Currently Aion fits my purposes but I will revisted and extend so the Interval cn be set for periods of seconds as opposed to the minutes only. Inputs of seconds/minutes to be 1000 based as in SetInterval (perhaps).
+Currently Aion fits my purposes but I will revisted and extend so the Interval cn be set for periods of seconds as opposed to the minutes only. Inputs of seconds/minutes to be 1000 (millisec) based as in setInterval (perhaps???).
