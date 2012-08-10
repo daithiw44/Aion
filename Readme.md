@@ -6,7 +6,7 @@ Aion is a setInterval Timer that ticks every second of a minute. Aion attaches a
 
 So rather than have muliple timers, Aion allows you create a single timer and attach an object(s) function to a given second so that it can emit an event from the single timer when the given time period has been reached. Currently Aion only works for periods of time based on minutes. In other words an object can be attached to the 36 second of a minute if that obect is to be called every minute it will be called on the 36 second of the next minute and so on.
 
-<img src"aion.jpg" border="0"/>
+<img src"https://github.com/daithiw44/Aion/blob/master/Aion.jpg" border="0"/>
 
 Example Attached:(streaming dNode Example dserver.js and dclient.js)
 The dserver.js and the dclient.js are a dnode server and client which demonstrate how using RPC calls the timer server can run in its own process and notify its clent which created the objects that the elasped amount of time has passed.
