@@ -20,7 +20,7 @@ Returns the second the object joined the cycle.
 The callback function is the last parameter and this should be used to take the second of the cycle the object was attached to and store as this second is used in the removefromSecObj call
 
 2. removefomSecObj = function(matchid,thesecond) 
-//takes the id of the object and the second is was attached to. So the Interval can be removed.
+//takes the id of the object and the second the object details were attached to. So the Interval call can be removed.
 
 TODO and beyond.
 
